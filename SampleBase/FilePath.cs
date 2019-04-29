@@ -46,11 +46,14 @@ namespace SampleBase
             public const string Match2 = "Data/Image/match2.png";
             public const string Match3 = "Data/Image/图1.jpg";
             public const string Match4 = "Data/Image/图2.jpg";
-            public const string 透视变换 = "Data/Image/20170519101748945.png";
+            public const string 透视变换 = "Data/Image/透视变换.jpg";
             public const string 图像金字塔 = "Data/Image/图2.jpg";
             public const string 图像金字塔1 = "Data/Image/图像金字塔1.jpg";
             public const string Resize尺寸放大缩小 = "Data/Image/图2.jpg";
             public const string Resize尺寸放大缩小1 = "Data/Image/Resize尺寸放大缩小1.jpg";
+            public const string 直方图均衡化 = "Data/Image/直方图均衡化.jpg";
+            public const string 直方图均衡化2 = "Data/Image/直方图均衡化2.jpg";
+
 
 
 

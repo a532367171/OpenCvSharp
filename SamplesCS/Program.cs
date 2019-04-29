@@ -57,7 +57,8 @@ namespace SamplesCS
             //new 透视变换1();
             //new 图像金字塔();
             //new Resize尺寸放大缩小();
-             new 摄像头取流();
+            //new 摄像头取流();
+            new 直方图均衡化();
 
             sample.Run();
         }

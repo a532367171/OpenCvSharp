@@ -115,6 +115,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="ISample.cs" />
     <Compile Include="Resize尺寸放大缩小.cs" />
     <Compile Include="Samples\BgSubtractorMOG.cs" />
@@ -161,7 +167,10 @@
     <Compile Include="Samples\透视变换.cs" />
     <Compile Include="图像金字塔.cs" />
     <Compile Include="摄像头取流.cs" />
+    <Compile Include="直方图均衡化.cs" />
+    <Compile Include="视频转换1.cs" />
     <Compile Include="透视变换1.cs" />
+    <Compile Include="视频转换2.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SampleBase\SampleBase.csproj">
@@ -172,6 +181,11 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
